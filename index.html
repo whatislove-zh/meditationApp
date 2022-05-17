@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Meditation</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="app">
+      <div class="timeChange">
+        <button time-data="120">2 minutes</button>
+        <button time-data="300">5 minutes</button>
+        <button time-data="600">10 minutes</button>
+      </div>
+      <div class="playButton">
+        <audio class="song">
+          <source src="/sounds/rain.mp3" />
+        </audio>
+        <img src="/svg/play.svg" alt="playButton" class="play" />
+      </div>
+      <div class="soundChange"></div>
+    </div>
+    <script src="/app.js"></script>
+  </body>
 </html>
