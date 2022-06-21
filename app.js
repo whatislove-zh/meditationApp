@@ -42,6 +42,7 @@ const app = () => {
       fakeDuration = this.getAttribute("time-data");
       // make krasivo otobrazh minut i sec
       timeDisplay.textContent = `0${ Math.floor(fakeDuration / 60)}:${Math.floor(fakeDuration % 60)}`
+      
   } )
 })
 
