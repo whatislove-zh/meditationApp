@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="/style.css" />
     <title>Meditation</title>
   </head>
@@ -13,7 +14,7 @@
         <div class="vid-container">
             <video loop>
 
-                <source src="/video/rain.mp4" type="video/mp4">
+                <source src="/video/forest.mp4" type="video/mp4">
 
             </video>
 
@@ -63,12 +64,23 @@
         <h3 class="timeDisplay">00:00</h3>
       </div>
       <div class="soundChange">
+
         <button data-sound="./sounds/rain.mp3" data-video="./video/rain.mp4">
           <img src="/svg/rain.svg" alt="rain" />
         </button>
+
         <button data-sound="./sounds/beach.mp3" data-video="./video/beach.mp4">
           <img src="/svg/beach.svg" alt="beach" />
         </button>
+
+        <button data-sound="./sounds/forest.mp4" data-video="./video/forest.mp4">
+          <i class="fa-solid fa-tree"></i>
+        </button>
+
+        <button data-sound="./sounds/night.mp4" data-video="./video/night.mp4">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
       </div>
     </div>
     <script src="/app.js"></script>
